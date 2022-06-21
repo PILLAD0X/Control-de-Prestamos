@@ -1,0 +1,16 @@
+.alinearLogo{
+  height: 50px;
+  top:2%;
+  width:150px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 85%;
+}
+.logobose{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+.margen{
+  margin-right: 2%;
+}
