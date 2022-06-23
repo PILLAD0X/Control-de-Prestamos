@@ -1,0 +1,55 @@
+.contenedor_titulo{
+    display: flex;
+    justify-content:  center;
+    margin-top: 7%;
+    flex-flow: row wrap;
+}
+.titulo {
+    font-size: 3rem;
+}
+
+.contenedor_principal{
+    margin-top: 2%;
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+}
+.formulario_AgregarEquipo{
+    display: flex;
+    justify-content:  center;
+    flex-flow: row wrap;
+    
+}
+.inputform{
+    display: flex;
+    margin-right: 1rem;
+    border-radius: 5px;
+    height: 2.5rem;
+    border: 1px solid rgb(12, 12, 12);
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.label{
+    text-align: center;
+    display: flex;
+    margin-right: 4rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    flex-grow: .2
+}
+.divbtnadd{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25%;
+    margin-top: 1rem;
+}
+

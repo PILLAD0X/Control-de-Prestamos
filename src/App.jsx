@@ -9,7 +9,6 @@ import BuscarEquipo from './pages/BuscarEquipo';
 import EliminarEquipo from './pages/EliminarEquipo';
 import DevolucionEquipo from './pages/DevolucionEquipo';
 import EditarEquipo from './pages/EditarEquipo';
-import SelectAddEquipos from './Components/AltaEquipos/SelectAddEquipos';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
         <Route path='/eliminarequipo' exact element={<EliminarEquipo/>}/>
         <Route path='/devolucionEquipo' exact element={<DevolucionEquipo/>} />
         <Route path='/editarEquipo/:id' exact element={<EditarEquipo/>} />
-        <Route path='/selectAddEquipos' exact element={<SelectAddEquipos/>} />
         <Route path='/team' exact element={<Team/>} />
       </Routes>
     </Router>
