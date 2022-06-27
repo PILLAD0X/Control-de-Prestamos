@@ -1,5 +1,4 @@
 import { Button, Modal } from "react-bootstrap";
-import Table from "react-bootstrap/Table";
 import "../styles/TablaEquipos.css";
 import * as FaIcons from "react-icons/fa";
 import { useState } from "react";
