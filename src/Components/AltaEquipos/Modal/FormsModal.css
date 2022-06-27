@@ -3,3 +3,13 @@
     justify-content:  center;
     margin-top: 2%;
 }
+.centrar{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2rem;
+    text-align: center;
+}
+.crollvertical{
+    height: 25rem;
+    overflow: scroll;
+}

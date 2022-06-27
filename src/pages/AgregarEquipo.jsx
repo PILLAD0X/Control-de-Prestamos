@@ -2,9 +2,10 @@
 import React, {useState} from "react";
 import "../styles/AgregarEquipo.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import SelectEquipos from "../Components/AltaEquipos/FormAgregarEquipo";
+import FomAgregarEquipos from "../Components/AltaEquipos/FormAgregarEquipo";
 import { Button } from "react-bootstrap";
 import Form from 'react-bootstrap/Form'
+import TablaEquipos from "../Components/TablaEquipos";
 const AgregarEquipo = () => {
 
 
@@ -15,44 +16,21 @@ const AgregarEquipo = () => {
       </div>
 
       <div className="contenedor_principal">
-          <Form>
+
           <div className="formulario_AgregarEquipo">
-          <div className="contenedor2">
-            <SelectEquipos
-              name="modelo"
-            />
-          </div>
-          <div className="contenedor1">
-            <Form.Control
-              type="text"
-              name="serie"
-              placeholder=" Serie del equipo"
-              className="inputform"
-              required
-            />
-          </div>
-          <div className="contenedor1">
-            <Form.Control
-              type="text"
-              name="alias"
-              placeholder=" Alias del equipo"
-              className="inputform "
-              required
-            />
-          </div>
-
+            <div className="contenedor2">
+              <FomAgregarEquipos
+                name="modelo"
+              />
+            </div>
         </div>
-          
-        <div className='divbtnadd'>
-
-          <Button type="submit" variant="success">Guardar Equipo</Button>
-         
-        </div>
-          </Form>
 
 
       </div>
-
+      <div>
+        <h3 className="titulotabla">Agregados Recientemente:</h3>
+        <TablaEquipos/>
+      </div>
     </div>
    
   );

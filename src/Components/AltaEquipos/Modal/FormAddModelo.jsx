@@ -2,8 +2,8 @@ import { Button } from "react-bootstrap";
 import React from 'react'
 import Form from 'react-bootstrap/Form'
 import './FormsModal.css'
-import SelectTEquipo from '../Selects/SelectTEquipo'
-import SelectMarca from '../Selects/SelectMarca'
+import SelectTEquipo from '../FormComponents/SelectTEquipo'
+import SelectMarca from '../FormComponents/SelectMarca'
 const FormAddModelo = () => {
   return (
 
