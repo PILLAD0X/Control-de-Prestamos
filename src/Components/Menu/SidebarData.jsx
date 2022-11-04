@@ -24,13 +24,13 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Agregar Equipo',
-        path: '/AgregarEquipo',
+        path: '/agregarequipo',
         icon: <IoIcons.IoMdAdd />,
         cName: 'sub-nav'
       },
       {
         title: 'Buscar equipo',
-        path: '/BuscarEquipo',
+        path: '/buscarequipo',
         icon: <FaIcons.FaSearch />,
         cName: 'sub-nav'
       },
@@ -53,12 +53,12 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Nuevo Prestamo',
-        path: '/NuevoPrestamo',
+        path: '/nuevoprestamo',
         icon: <FaIcons.FaHandHolding />
       },
       {
         title: 'Devolucion de Prestamo',
-        path: '/DevolucionEquipo',
+        path: '/devolucionequipo',
         icon: <FaIcons.FaHandshake />
       }
     ]

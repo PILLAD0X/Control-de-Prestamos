@@ -9,6 +9,7 @@ import BuscarEquipo from './pages/BuscarEquipo';
 import EliminarEquipo from './pages/EliminarEquipo';
 import DevolucionEquipo from './pages/DevolucionEquipo';
 import EditarEquipo from './pages/EditarEquipo';
+import NuevoPrestamo from './pages/CrearPrestamos';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/agregarEquipo' exact element={<AgregarEquipo/>} />
         <Route path='/buscarequipo' exact element={<BuscarEquipo/>}/>
         <Route path='/eliminarequipo' exact element={<EliminarEquipo/>}/>
+        <Route path='/nuevoprestamo' exact element={<NuevoPrestamo/>} />
         <Route path='/devolucionEquipo' exact element={<DevolucionEquipo/>} />
         <Route path='/editarEquipo/:id' exact element={<EditarEquipo/>} />
         <Route path='/team' exact element={<Team/>} />

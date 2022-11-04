@@ -1,0 +1,24 @@
+.contenedor{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+.containerInput{
+    background-color: #4CAF50; /* Green */
+    border: 1px;
+    border-color: black;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    float: right;
+    margin-right: 3rem;
+    margin-top: 1%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-style: bold;
+    height: auto;
+    width: auto;
+}
+.inputBuscar{
+    width: 90% !important;
+}

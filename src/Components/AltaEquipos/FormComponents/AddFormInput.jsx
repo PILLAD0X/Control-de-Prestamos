@@ -10,7 +10,7 @@ const AddFormInput = (props) => {
                     type="text"
                     name="serie"
                     placeholder=" Serie del equipo"
-                    className=" input"
+                    className="input"
                     required
                 />:
             props.inputForm === 'alias'?
@@ -18,7 +18,7 @@ const AddFormInput = (props) => {
                     type="text"
                     name="alias"
                     placeholder=" Alias del equipo"
-                    className=" input"
+                    className="input"
                     required
                 />:
             ''

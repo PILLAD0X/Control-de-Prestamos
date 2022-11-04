@@ -1,0 +1,61 @@
+.contenedor_titulo{
+    display: flex;
+    justify-content:  center;
+    margin-top: 7rem;
+    flex-flow: row wrap;
+}
+.titulo {
+    font-size: 3rem;
+}
+.contenedor_subTitulo{
+    display: flex;
+    justify-content:  center;
+    margin-top: 1rem;
+    flex-flow: row wrap;
+}
+.titulo2{
+    font-size: 2rem;
+}
+.contenedor_principal{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.contenedorinfo{
+    display: flex;
+    margin-right: 1px ;
+    justify-content: center;
+}
+.divInfoUser{
+    display: flex;
+    flex-direction: column;
+}
+.divcontenedorinfouser{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+.divInfoUserText{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.divfotuser{
+    margin-right: 3rem;
+    margin-left: 5rem;
+    justify-content: center;
+}
+.fotoUser{
+    height: 10rem;
+    width: 10rem;
+}
+.divsubT{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.labelinfo{
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    height: 1rem;
+}
